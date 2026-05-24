@@ -56,3 +56,16 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 1. Clone o repositório:
 ```bash
    git clone [https://github.com/AmonCarlos001/barbershop-api.git](https://github.com/AmonCarlos001/barbershop-api.git)
+
+2. **Configure o Banco de Dados:**
+   * Abra o seu MySQL (via Workbench ou terminal) e crie o banco de dados principal com o comando:
+     ```sql
+     CREATE DATABASE barbershop;
+     ```
+
+3. **Configuração de Credenciais:**
+   * Ajuste o arquivo `src/main/resources/application.properties` informando o seu usuário e a sua senha do MySQL local nas propriedades `DATABASE_USERNAME` e `DATABASE_PASSWORD`.
+
+4. **Execute a Aplicação:**
+   * Execute o projeto através da sua IDE de preferência ou utilizando o Maven Wrapper pelo terminal. O Flyway irá rodar as migrações estruturais automaticamente assim que o sistema subir.
+   * A API estará disponível e pronta para receber requisições em `http://localhost:8081`.
