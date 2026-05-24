@@ -61,13 +61,13 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 ### Passos para Execução
 
 1. **Clone o repositório:**
-   ```bash
+   bash
    git clone [https://github.com/AmonCarlos001/barbershop-api.git](https://github.com/AmonCarlos001/barbershop-api.git)
    
    2. **Configure o Banco de Dados:**
    * Abra o seu MySQL (via Workbench ou terminal) e crie o banco de dados principal com o comando:
-     ```sql
-     CREATE DATABASE barbershop;
+   sql
+   CREATE DATABASE barbershop;
      ```
 
 3. **Configuração de Credenciais:**
