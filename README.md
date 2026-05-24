@@ -18,7 +18,7 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * **Lombok** (Produtividade e código limpo)
 * **Jakarta Bean Validation** (Validação de entrada de dados)
 
-![Ambiente de Desenvolvimento no IntelliJ IDEA](intellij.png)
+![Ambiente de Desenvolvimento no IntelliJ IDEA](docs/intellij.png)
 
 ---
 
@@ -30,7 +30,7 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * **Consistência de Negócio:** Uso de *Derived Queries* customizadas no Spring Data para impedir choques de horário na agenda (ex: dois agendamentos no mesmo horário com o mesmo barbeiro).
 * **Soft Delete:** Remoção lógica para barbeiros e serviços (`ativo = false`), preservando o histórico de agendamentos passados no banco de dados.
 
-![Tabelas Populadas no MySQL Workbench](bd.png)
+![Tabelas Populadas no MySQL Workbench](docs/bd.png)
 
 ---
 
@@ -48,7 +48,7 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * `GET /barbeiros` - Lista apenas os barbeiros ativos no sistema.
 * `GET /servicos` - Lista o catálogo de serviços ativos e preços.
 
-![Demonstração da API no Insomnia](insomnia.png)
+![Demonstração da API no Insomnia](docs/insomnia.png)
 
 ---
 
