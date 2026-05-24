@@ -54,5 +54,5 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 
 ### Passos para Execução
 1. Clone o repositório:
-   ```bash
-   git clone [git clone https://github.com/AmonCarlos001/barbershop-api.git]
+```bash
+   git clone [https://github.com/AmonCarlos001/barbershop-api.git](https://github.com/AmonCarlos001/barbershop-api.git)
