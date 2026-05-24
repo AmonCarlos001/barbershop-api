@@ -20,7 +20,7 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * **Lombok** (Produtividade e código limpo)
 * **Jakarta Bean Validation** (Validação de entrada de dados)
 
-![Ambiente de Desenvolvimento no IntelliJ IDEA](intellij.jpg)
+![Ambiente de Desenvolvimento no IntelliJ IDEA](intellij.png)
 
 ---
 
