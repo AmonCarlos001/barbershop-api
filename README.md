@@ -2,6 +2,8 @@
 
 API REST robusta desenvolvida para o gerenciamento e agendamento de serviços em barbearias. O sistema conta com autenticação segura, controle de permissões por perfil e validações rigorosas de regras de negócio.
 
+![Demonstração da API no Insomnia](insomnia.png)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -18,6 +20,8 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * **Lombok** (Produtividade e código limpo)
 * **Jakarta Bean Validation** (Validação de entrada de dados)
 
+![Ambiente de Desenvolvimento no IntelliJ IDEA](intellij.jpg)
+
 ---
 
 ## 🔒 Arquitetura & Diferenciais Técnicos
@@ -27,6 +31,8 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * **Tratamento Global de Erros:** Utilização de `@RestControllerAdvice` para interceptar exceções (como e-mails duplicados, dados inválidos ou erros de sintaxe no JSON) e retornar respostas padronizadas com mensagens amigáveis para o cliente da API.
 * **Consistência de Negócio:** Uso de *Derived Queries* customizadas no Spring Data para impedir choques de horário na agenda (ex: dois agendamentos no mesmo horário com o mesmo barbeiro).
 * **Soft Delete:** Remoção lógica para barbeiros e serviços (`ativo = false`), preservando o histórico de agendamentos passados no banco de dados.
+
+![Tabelas Populadas no MySQL Workbench](bd.png)
 
 ---
 
@@ -53,11 +59,12 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 * MySQL Server rodando localmente.
 
 ### Passos para Execução
-1. Clone o repositório:
-```bash
-   git clone [https://github.com/AmonCarlos001/barbershop-api.git](https://github.com/AmonCarlos001/barbershop-api.git)
 
-2. **Configure o Banco de Dados:**
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/AmonCarlos001/barbershop-api.git](https://github.com/AmonCarlos001/barbershop-api.git)
+   
+   2. **Configure o Banco de Dados:**
    * Abra o seu MySQL (via Workbench ou terminal) e crie o banco de dados principal com o comando:
      ```sql
      CREATE DATABASE barbershop;
@@ -69,3 +76,11 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 4. **Execute a Aplicação:**
    * Execute o projeto através da sua IDE de preferência ou utilizando o Maven Wrapper pelo terminal. O Flyway irá rodar as migrações estruturais automaticamente assim que o sistema subir.
    * A API estará disponível e pronta para receber requisições em `http://localhost:8081`.
+  
+   * ---
+
+## 📬 Contato
+
+Se tiver alguma dúvida, sugestão ou quiser bater um papo sobre desenvolvimento back-end, sinta-se à vontade para se conectar comigo!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amon-carlos-dev)
