@@ -2,8 +2,6 @@
 
 API REST robusta desenvolvida para o gerenciamento e agendamento de serviços em barbearias. O sistema conta com autenticação segura, controle de permissões por perfil e validações rigorosas de regras de negócio.
 
-![Demonstração da API no Insomnia](insomnia.png)
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -49,6 +47,8 @@ O projeto foi construído utilizando as melhores práticas do ecossistema Java m
 ### Catálogo e Profissionais
 * `GET /barbeiros` - Lista apenas os barbeiros ativos no sistema.
 * `GET /servicos` - Lista o catálogo de serviços ativos e preços.
+
+![Demonstração da API no Insomnia](insomnia.png)
 
 ---
 
